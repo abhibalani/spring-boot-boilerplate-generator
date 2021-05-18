@@ -54,3 +54,5 @@ sed -i '' "s/com.oddblogger/$group_id/g" pom.xml
 sed -i '' "s/spring-boot-boilerplate/$artifact_id/g" pom.xml
 echo "Updating logback.xml ..."
 sed -i '' "s/com.oddblogger/$group_id/g" src/main/resources/logback.xml
+echo "Boilerplate code generated"
+echo "Exiting"
